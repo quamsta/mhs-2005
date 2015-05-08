@@ -9,7 +9,8 @@
 		"silverstripe/userforms" : "*",
 		"silverstripe/event-calendar": "*",
 		"silverstripe/spamprotection": "dev-master",
-		"silverstripe/mathspamprotection": "dev-master"
+		"silverstripe/mathspamprotection": "dev-master",
+		"jonom/silverstripe-betternavigator": "*"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7@stable"

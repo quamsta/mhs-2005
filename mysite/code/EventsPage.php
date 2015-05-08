@@ -11,8 +11,8 @@ class EventsPage extends Calendar {
 
 	public function getCMSFields() {
 		$fields = parent::getCMSFields();
-
-		$fields->addFieldToTab('Root.LeftContent', new TextField('Byline', 'Byline'), 'Content');
+		$fields->removeByName('SideBar');
+		$fields->addFieldToTab('Root.Main', new TextField('Byline', 'Byline'), 'Content');
 
 		return $fields;
 	}

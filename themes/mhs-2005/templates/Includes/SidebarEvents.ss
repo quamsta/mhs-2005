@@ -1,35 +1,16 @@
 <div id="sidebar" class="4u">
-	<section>
-		<header class="major">
-			<h2>FRIDAY FUN</h2>
-		</header>									
-		<ul class="default">
-			<li><a href="#">Activity 1</a></li>
-			<li><a href="#">Activity 2</a></li>
-			<li><a href="#">Activity 3</a></li>
-			<li><a href="#">Activity 4</a></li>
-		</ul>
-	</section>
-	<section>
-		<header class="major">
-			<h2>SATURDAY FUN</h2>
-		</header>
-		<ul class="default">
-			<li><a href="#">Activity 1</a></li>
-			<li><a href="#">Activity 2</a></li>
-			<li><a href="#">Activity 3</a></li>
-			<li><a href="#">Activity 4</a></li>
-		</ul>
-	</section>
-    <section>
-		<header class="major">
-			<h2>SUNDAY FUN</h2>
-		</header>
-		<ul class="default">
-			<li><a href="#">Activity 1</a></li>
-			<li><a href="#">Activity 2</a></li>
-			<li><a href="#">Activity 3</a></li>
-			<li><a href="#">Activity 4</a></li>
-		</ul>
-	</section>
+	<% with $Page(events) %>
+      <% loop UpcomingEvents %>
+      	<% if Event %>
+			<section>
+				<header class="major">
+					<h2><a href="schedule/show/{$StartDate.Format('Ymd')}">{$StartDate.Day}, {$StartDate.Month} {$StartDate.DayOfMonth}</a></h2>
+				</header>									
+				<ul class="default">
+					<li><a href="$Event.Link">$Event.Title</a></li>
+				</ul>
+			</section>
+        <% end_if %>
+      <% end_loop %>
+    <% end_with %>
 </div>

@@ -18,6 +18,7 @@ class HomePage extends Page {
 	public function getCMSFields() {
 		$fields = parent::getCMSFields();
 
+		$fields->removeByName('Sidebar');
 		$fields->addFieldToTab('Root.Main', new TextField('Byline'));
 		$fields->addFieldToTab('Root.LeftContent', new HTMLEditorField('LeftContent', 'Left Content'));
 		$fields->addFieldToTab('Root.RightContent', new HTMLEditorField('RightContent', 'Right Content'));

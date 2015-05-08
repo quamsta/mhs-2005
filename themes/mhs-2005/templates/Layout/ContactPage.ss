@@ -39,22 +39,22 @@
 					</header>
 					<div class="row">
 						<div class="3u">
-							<a href="#" class="image"><img src="images/placeholder.png" alt=""></a>
+							<a href="#" class="image"><img src="{$ThemeDir}/images/placeholder.png" alt=""></a>
 							<h3>Brooke LeWarne</h3>
 							<p>Class President &amp; Head Coordinator</p>
 						</div>
                         <div class="3u">
-							<a href="#" class="image"><img src="images/placeholder.png" alt=""></a>
+							<a href="#" class="image"><img src="{$ThemeDir}/images/placeholder.png" alt=""></a>
 							<h3>Kristin Skaar</h3>
 							<p>Coordinator</p>
 						</div>
 						<div class="3u">
-							<a href="#" class="image"><img src="images/placeholder.png" alt=""></a>
+							<a href="#" class="image"><img src="{$ThemeDir}/images/placeholder.png" alt=""></a>
 							<h3>Lacee Jondal</h3>
 							<p>Graphic &amp; Web Designer</p>
 						</div>
 						<div class="3u">
-							<a href="#" class="image"><img src="images/placeholder.png" alt=""></a>
+							<a href="#" class="image"><img src="{$ThemeDir}/images/placeholder.png" alt=""></a>
 							<h3>Dustin Quam</h3>
 							<p>Web Developer</p>
 						</div>

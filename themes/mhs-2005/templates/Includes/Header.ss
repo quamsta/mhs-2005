@@ -3,7 +3,7 @@
 	<div class="container">
 			
 		<!-- Logo -->
-			<h1><a href="#" id="logo">$SiteConfig.Title</a></h1>
+			<h1><a href="{$BaseHref}" id="logo">$SiteConfig.Title</a></h1>
 		
 		<!-- Nav -->
 			<nav id="nav">

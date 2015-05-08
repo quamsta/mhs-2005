@@ -6,7 +6,8 @@
 		"silverstripe/cms": "3.1.12",
 		"silverstripe/framework": "3.1.12",
 		"silverstripe-themes/simple": "*",
-		"silverstripe/userforms" : "*"
+		"silverstripe/userforms" : "*",
+		"silverstripe/event-calendar": "*"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7@stable"

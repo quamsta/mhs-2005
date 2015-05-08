@@ -13,3 +13,5 @@ framework
 userforms
 .phpintel
 themes/simple/
+event-calendar/
+event_calendar/

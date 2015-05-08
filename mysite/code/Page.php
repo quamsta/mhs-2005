@@ -2,11 +2,25 @@
 class Page extends SiteTree {
 
 	private static $db = array(
+		'SidebarTitle' => 'Text',
+		'SidebarContent' => 'HTMLText',
 	);
 
 	private static $has_one = array(
 	);
+	public function getCMSFields() {
+		$fields = parent::getCMSFields();
 
+		//$fields->removeByName('Content');
+
+		$fields->addFieldToTab('Root.RightContent', new TextField('RightTitle', 'Title'));
+		$fields->addFieldToTab('Root.RightContent', new HTMLEditorField('RightContent', 'Content'));
+
+		$fields->addFieldToTab('Root.Sidebar', new TextField('SidebarTitle', 'Title'));
+		$fields->addFieldToTab('Root.Sidebar', new HTMLEditorField('SidebarContent', 'Content'));
+
+		return $fields;
+	}
 }
 class Page_Controller extends ContentController {
 
@@ -25,7 +39,7 @@ class Page_Controller extends ContentController {
 	 *
 	 * @var array
 	 */
-	private static $allowed_actions = array (
+	private static $allowed_actions = array(
 	);
 
 	public function init() {

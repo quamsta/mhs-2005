@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>MHS Class of 2005 Reunion</title>
+		<title>$Title | Marshalltown High School Class of 2005 Reunion</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -24,9 +24,7 @@
 		<!-- Header Wrapper -->
 			<div class="wrapper style1">
 				<% include Header %>
-			
-				
-			$Layout
+				$Layout
 			</div>
 	<!-- Footer -->
 		<% include Footer %>

@@ -32,6 +32,6 @@
 						<h2>$BannerHeader</h2>
 					</header>
 					$BannerContent
-					<a href="contact.html" class="button alt">$BannerButtonTitle</a>
+					<a href="$BannerButtonLink.Link" class="button alt">$BannerButtonTitle</a>
 				</section>
 			</div>

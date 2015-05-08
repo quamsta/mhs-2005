@@ -16,14 +16,11 @@
 						<div id="content" class="8u skel-cell-important">
 							<section>
 								<header class="major">
-									<h2>We're here to help!</h2>
-									<span class="byline">Let us know if you have any questions are input for the reunion.</span>
+									<h2>$RightTitle</h2>
+									<% if $RightByline %><span class="byline">$RightByline</span><% end_if %>
 								</header>
 								<p>Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem, imperdiet at, ultrices eget, ornare et, wisi. Pellentesque adipiscing purus ac magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna, elementum ut, vestibulum eu, facilisis quis, arcu. Mauris a dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed blandit. Phasellus pellentesque, ante nec iaculis lobortis lorem mauris quis nunc.</p>
-								<p><strong>Brooke LeWarne</strong><br>
-                               <strong>000-000-0000</strong><br>
-                                <strong>MarshalltownHS05Reunion@gmail.com</strong>
-                                </p>
+
 							</section>
 						</div>
 					</div>

@@ -19,7 +19,7 @@
 				<section>
 					<header class="major">
 						<h2>$Title</h2>
-						<span class="byline">$Byline</span>
+						<% if Byline %><span class="byline">$Byline</span><% end_if %>
 					</header>
 					$Content
 					$Form

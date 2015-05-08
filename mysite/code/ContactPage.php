@@ -6,6 +6,7 @@ class ContactPage extends UserDefinedForm {
 		'LeftContent' => 'HTMLText',
 
 		'RightTitle' => 'Text',
+		'RightByline' => 'Text',
 		'RightContent' => 'HTMLText',
 	);
 
@@ -16,12 +17,13 @@ class ContactPage extends UserDefinedForm {
 	public function getCMSFields() {
 		$fields = parent::getCMSFields();
 
-		//$fields->removeByName('Content');
+		$fields->removeByName('Sidebar');
 
-		$fields->addFieldToTab('Root.LeftContent', new TextField('LeftTitle', 'Title'));
-		$fields->addFieldToTab('Root.LeftContent', new HTMLEditorField('LeftContent', 'Content'));
+		//$fields->addFieldToTab('Root.LeftContent', new TextField('LeftTitle', 'Title'));
+		//$fields->addFieldToTab('Root.LeftContent', new HTMLEditorField('LeftContent', 'Content'));
 
 		$fields->addFieldToTab('Root.RightContent', new TextField('RightTitle', 'Title'));
+		$fields->addFieldToTab('Root.RightContent', new TextField('RightByline', 'Byline'));
 		$fields->addFieldToTab('Root.RightContent', new HTMLEditorField('RightContent', 'Content'));
 
 		return $fields;

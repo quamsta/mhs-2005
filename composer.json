@@ -7,7 +7,9 @@
 		"silverstripe/framework": "3.1.12",
 		"silverstripe-themes/simple": "*",
 		"silverstripe/userforms" : "*",
-		"silverstripe/event-calendar": "*"
+		"silverstripe/event-calendar": "*",
+		"silverstripe/spamprotection": "dev-master",
+		"silverstripe/mathspamprotection": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7@stable"

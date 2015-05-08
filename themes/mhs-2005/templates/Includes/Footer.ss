@@ -7,5 +7,6 @@
 		<ul class="icons">
 			<li class="active"><a href="https://www.facebook.com/groups/656588271082303/" class="fa fa-facebook" target="_blank"><span>Facebook</span></a></li>
 		</ul>
+		<p><a href="admin/">Login</a></p>
 	</section>
 </div>

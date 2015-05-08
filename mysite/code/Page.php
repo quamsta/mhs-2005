@@ -13,8 +13,8 @@ class Page extends SiteTree {
 
 		//$fields->removeByName('Content');
 
-		$fields->addFieldToTab('Root.RightContent', new TextField('RightTitle', 'Title'));
-		$fields->addFieldToTab('Root.RightContent', new HTMLEditorField('RightContent', 'Content'));
+		/*$fields->addFieldToTab('Root.RightContent', new TextField('RightTitle', 'Title'));
+		$fields->addFieldToTab('Root.RightContent', new HTMLEditorField('RightContent', 'Content'));*/
 
 		$fields->addFieldToTab('Root.Sidebar', new TextField('SidebarTitle', 'Title'));
 		$fields->addFieldToTab('Root.Sidebar', new HTMLEditorField('SidebarContent', 'Content'));
